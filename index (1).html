@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henry Dev | Desarrollo de Juegos Roblox</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --red:#e2231a;
+      --dark:#0b0b0b;
+      --gray:#1a1a1a;
+      --white:#ffffff;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Poppins',sans-serif;
+      background:linear-gradient(135deg,#0b0b0b,#111);
+      color:var(--white);
+    }
+    header{
+      padding:60px 20px;
+      text-align:center;
+      background:radial-gradient(circle at top,var(--red),transparent 60%);
+    }
+    .logo{
+      font-family:'Orbitron',sans-serif;
+      font-size:3rem;
+      font-weight:800;
+      letter-spacing:3px;
+    }
+    .logo span{color:var(--red)}
+    header p{
+      margin-top:15px;
+      font-size:1.1rem;
+      opacity:.9;
+    }
+    .cta{
+      margin-top:30px;
+      display:inline-block;
+      padding:14px 32px;
+      background:var(--red);
+      color:white;
+      text-decoration:none;
+      border-radius:40px;
+      font-weight:600;
+      box-shadow:0 0 25px rgba(226,35,26,.5);
+    }
+    section{
+      padding:70px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+    h2{
+      font-family:'Orbitron',sans-serif;
+      font-size:2.2rem;
+      margin-bottom:30px;
+      text-align:center;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+    .card{
+      background:linear-gradient(180deg,#1a1a1a,#0f0f0f);
+      padding:30px;
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,.6);
+      transition:.3s;
+    }
+    .card:hover{transform:translateY(-6px)}
+    .card h3{color:var(--red);margin-bottom:10px}
+    .types span{
+      display:inline-block;
+      margin:6px;
+      padding:10px 16px;
+      border-radius:20px;
+      background:#222;
+      border:1px solid #333;
+    }
+    footer{
+      text-align:center;
+      padding:40px 20px;
+      background:#050505;
+      opacity:.9;
+    }
+    .roblox-badge{
+      margin-top:15px;
+      font-weight:600;
+      letter-spacing:1px;
+    }
+    .roblox-badge span{color:var(--red)}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">HENRY <span>DEV</span></div>
+  <p>Desarrollo profesional de juegos en <strong>ROBLOX</strong></p>
+  <a class="cta" href="#contacto">Cotizar Proyecto</a>
+</header>
+
+<section>
+  <h2>¿Qué hago?</h2>
+  <p style="max-width:900px;margin:0 auto 40px;text-align:center;opacity:.9">
+    Me especializo en el desarrollo completo de videojuegos dentro de <strong>Roblox</strong>, cuidando tanto la parte técnica como la experiencia del jugador.
+    No uso sistemas genéricos: cada proyecto se construye desde cero según la idea del cliente.
+  </p>
+  <div class="grid">
+    <div class="card">
+      <h3>🧩 Mecánicas Avanzadas</h3>
+      <p>
+        Desarrollo mecánicas únicas y funcionales: sistemas de combate cuerpo a cuerpo o a distancia,
+        habilidades especiales, barras de energía, progresión por niveles, misiones principales y secundarias,
+        inventarios, estadísticas y lógica de juego optimizada.
+      </p>
+    </div>
+    <div class="card">
+      <h3>🗺️ Mapeo Profesional</h3>
+      <p>
+        Diseño y construyo mapas desde cero, adaptados al tipo de juego. Trabajo con mapas pequeños,
+        medianos o grandes, cuidando el detalle visual y el rendimiento. Estilos disponibles: realista,
+        low poly, cartoon y estilo Roblox clásico.
+      </p>
+    </div>
+    <div class="card">
+      <h3>⚙️ Sistemas & Scripts</h3>
+      <p>
+        Programación de sistemas completos: guardado de datos (DataStore), interfaces gráficas (UI),
+        tiendas internas, gamepasses, monetización, sistemas RP, simuladores, terror y lógica multijugador.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Tipos de Juegos</h2>
+  <p style="text-align:center;max-width:850px;margin:0 auto 30px;opacity:.9">
+    Tengo experiencia trabajando en distintos géneros dentro de Roblox. Cada tipo de juego se adapta
+    a las mecánicas, mapa y sistemas necesarios para ofrecer una experiencia divertida y estable.
+  </p>
+  <div class="types" style="text-align:center">
+    <span>🎮 Simuladores (dinero, progreso, mejoras)</span>
+    <span>👻 Terror (eventos, jumpscares, atmósfera)</span>
+    <span>🧠 Roleplay RP (roles, trabajos, sistemas sociales)</span>
+    <span>🔫 Acción / Shooter (armas, daño, equipos)</span>
+    <span>🏝️ Aventura / Historia (misiones, narrativa)</span>
+  </div>
+</section>
+
+<section>
+  <h2>Precios y Cotización</h2>
+  <p style="text-align:center;max-width:850px;margin:0 auto 30px;opacity:.9">
+    Cada proyecto es diferente, por eso no uso precios fijos. El costo final se calcula de forma justa
+    según el trabajo real que requiera el juego.
+  </p>
+  <div class="card" style="max-width:800px;margin:auto;text-align:center">
+    <p>💰 Factores que influyen en el precio:</p>
+    <p>
+      • Tamaño del mapa<br>
+      • Cantidad y complejidad de mecánicas<br>
+      • Sistemas especiales (guardado, UI, monetización)<br>
+      • Tiempo estimado de desarrollo<br>
+      • Nivel de detalle y optimización
+    </p>
+    <p style="margin-top:15px;color:var(--red)">
+      Ofrezco una cotización clara antes de empezar el proyecto
+    </p>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p style="text-align:center;max-width:850px;margin:0 auto 30px;opacity:.9">
+    Si tienes una idea, un concepto o un proyecto en mente, puedes contactarme sin compromiso.
+    Analizo tu propuesta y te doy una respuesta honesta sobre lo que se puede hacer.
+  </p>
+  <div class="card" style="max-width:650px;margin:auto;text-align:center">
+    <p>📩 Contacto directo por DM</p>
+    <p>📝 Describe tu idea, el tipo de juego y lo que necesitas</p>
+    <p>🤝 Trabajo con seriedad, comunicación clara y compromiso</p>
+    <div class="roblox-badge">ROBLOX <span>GAME DEVELOPER</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>¿Por qué elegirme?</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🎯 Trabajo a medida</h3>
+      <p>No uso plantillas ni sistemas reciclados. Cada juego se desarrolla específicamente según tu idea, público y objetivos.</p>
+    </div>
+    <div class="card">
+      <h3>⚡ Optimización real</h3>
+      <p>Cuido el rendimiento del juego para que funcione bien en PC y móvil, evitando lag y errores comunes.</p>
+    </div>
+    <div class="card">
+      <h3>🤝 Comunicación clara</h3>
+      <p>Mantengo contacto durante todo el desarrollo. Sabes qué se está haciendo y en qué etapa va tu proyecto.</p>
+    </div>
+    <div class="card">
+      <h3>🚀 Enfoque comercial</h3>
+      <p>Diseño juegos pensando en retención, monetización y experiencia del jugador.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Proceso de Trabajo</h2>
+  <div class="grid">
+    <div class="card"><h3>1️⃣ Idea</h3><p>Me explicas tu concepto, referencias y qué tipo de juego quieres crear.</p></div>
+    <div class="card"><h3>2️⃣ Análisis</h3><p>Evalúo mecánicas, mapa y sistemas necesarios para darte una cotización justa.</p></div>
+    <div class="card"><h3>3️⃣ Desarrollo</h3><p>Comienzo a crear el juego por etapas: mecánicas, mapa, sistemas y pruebas.</p></div>
+    <div class="card"><h3>4️⃣ Pruebas</h3><p>Se testea el juego, se corrigen errores y se optimiza el rendimiento.</p></div>
+    <div class="card"><h3>5️⃣ Entrega</h3><p>Te entrego el proyecto funcional y listo para publicar en Roblox.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Testimonios</h2>
+  <div class="grid">
+    <div class="card"><p>“Henry entendió exactamente la idea y la llevó a otro nivel. El juego quedó mejor de lo esperado.”</p><strong>– Cliente Roblox</strong></div>
+    <div class="card"><p>“Buen trato, comunicación constante y trabajo serio. Recomendado para proyectos grandes.”</p><strong>– Dev Partner</strong></div>
+    <div class="card"><p>“Las mecánicas funcionan perfecto y el mapa está bien optimizado.”</p><strong>– Creador de juegos</strong></div>
+  </div>
+</section>
+
+<section>
+  <h2>Preguntas Frecuentes (FAQ)</h2>
+  <div class="grid">
+    <div class="card"><h3>❓ ¿Cuánto tarda un proyecto?</h3><p>Depende del tamaño y complejidad. Puede ir desde días hasta varias semanas.</p></div>
+    <div class="card"><h3>❓ ¿Trabajas con Robux o dinero real?</h3><p>Se puede hablar y acordar la forma de pago según el proyecto.</p></div>
+    <div class="card"><h3>❓ ¿Haces juegos completos desde cero?</h3><p>Sí, tanto mecánicas, mapas como sistemas.</p></div>
+    <div class="card"><h3>❓ ¿Puedo pedir cambios?</h3><p>Sí, se permiten ajustes durante el desarrollo según lo acordado.</p></div>
+  </
+  <p>© 2026 Henry Dev – Roblox Game Developer</p>
+</footer>
+
+</body>
+</html>
